@@ -7,7 +7,7 @@ basic.forever(function () {
             music.play(music.tonePlayable(880, music.beat(BeatFraction.Quarter)), music.PlaybackMode.UntilDone)
         }
         basic.pause(2000)
-        cuteBot.motors(randint(-50, -100), 0)
+        cuteBot.motors(-50, -50)
         basic.pause(500)
     } else {
         cuteBot.motors(21.5, 25)
